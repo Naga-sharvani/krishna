@@ -4,19 +4,30 @@ body{
     position:relative;
     background-image: url(bg.jpg);
     background-repeat: no-repeat;
-    cursor: url(girl.jpg),auto;
+    /* cursor: url(girl.jpg),auto; */
+    cursor:none;
 }
 
 #krishna{
     position:absolute;
     top:50%;
     left:50%;
-    padding:12px 20px;
-    cursor:pointer;
-    /* image: url(krishna.webp); */
+    /* padding:12px 20px; */
+    /* cursor:pointer; */
+   
+    background-image: url(krishna.webp) no-repeat center;
 }
 
 #krishna img{
-    height:30px;
-    width:10px;
+    height:70px;
+    width:50px;
+}
+
+#fake{
+    height:32px;
+    width:32px;
+    background: url(durga.png) no-repeat center;
+    background-size: contain;
+    position:fixed;
+    pointer-events: none;
 }
