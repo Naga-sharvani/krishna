@@ -31,3 +31,14 @@ body{
     position:fixed;
     pointer-events: none;
 }
+
+.win-message{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(215, 40, 9);
+
+}
